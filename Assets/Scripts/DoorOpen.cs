@@ -1,16 +1,26 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class DoorOpen : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private string openParameter = "IsOpen";
+
+    private Animator animator;
+    private bool isOpen;
+
+    void Awake()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Open()
     {
-        
+        if (isOpen)
+        {
+            return;
+        }
+
+        isOpen = true;
+        animator.SetBool(openParameter, true);
     }
 }
