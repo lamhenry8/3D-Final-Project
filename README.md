@@ -7,6 +7,9 @@
 **Audio Resources:**
 * https://www.youtube.com/watch?v=eZ_r1H9vHkI
 * https://kenney.nl/assets/rpg-audio
+* https://www.youtube.com/watch?v=X-7c_sMeLT8
+* Music by Francis Bonin Music
+*    / @francisboninmusic  
 
 ## Features to Add:
 * Pickupable sword and sword using animations
